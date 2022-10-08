@@ -1,0 +1,58 @@
+#baner {
+	color: white;
+	text-align: center;
+	height: 370px;
+}
+
+#main {
+	background-color: WhiteSmoke;
+	height: 50px;
+}
+
+#left {
+	background-color: WhiteSmoke;
+	width: 70%;
+	height: 230px;
+	float: left;
+}
+
+#right {
+	background-color: WhiteSmoke;
+	width: 30%;
+	height: 230px;
+	text-align: right;	
+	float: right;
+}
+
+#matches {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+section {
+	float: left;
+	color: white;
+	text-align: center;
+	width: 200px;
+	margin: 10px;
+	border-style: solid;
+	border-width: 1px; 
+	border-color: black;
+	border-radius: 10px;
+}
+
+section:hover {
+	border-color: white;
+}
+
+body {
+	font-style: Tahoma;
+	background-color: Crimson;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 7px;
+	text-transform: capitalize;
+}
